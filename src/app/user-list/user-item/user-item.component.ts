@@ -5,8 +5,8 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './user-item.component.html',
-  styleUrl: './user-item.component.css'
+  styleUrl: './user-item.component.css',
 })
 export class UserItemComponent {
-
+  user = { id: 1, name: 'Hardcoded data', age: -1 };
 }
