@@ -1,3 +1,63 @@
 hr {
   margin: 10px;
 }
+
+#number-wrapper {
+  box-shadow: 0 1px 3px #00000026;
+  max-width: 30%;
+  margin-inline: auto;
+  padding: 12px;
+}
+
+.num {
+  background-color: rgb(205, 231, 255);
+  color: white;
+  font-weight: 900;
+  border-radius: 20px;
+  margin: 5px;
+  text-align: center;
+}
+
+.num.red {
+  background-color: rgb(253, 77, 77);
+}
+
+.num.blue {
+  background-color: rgb(71, 71, 246);
+}
+
+.wrapper {
+  /* border: 1px solid #000; */
+  width: 300px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.pop-up {
+  border: 1px solid #000;
+  height: 100%;
+  width: min-content;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: cyan;
+}
+
+img {
+  width: 100px;
+  height: 170px;
+}
+
+.random-red {
+  border: 5px solid red;
+}
+
+.random-green {
+  border: 5px solid green;
+}

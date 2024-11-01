@@ -1,4 +1,28 @@
 <app-navigation-bar></app-navigation-bar>
+<div [class]="randomMsg">This is random message</div>
 <app-hero></app-hero>
 <app-user-list></app-user-list>
+
+<!-- <div id="number-wrapper">
+  @for (n of numbers; track $index) {
+
+  @if (n % 2 == 0) {
+  <div class="num blue">{{ n }}</div>
+
+  } @else {
+  <div class="num red">{{ n }}</div>
+  } }
+</div> -->
+<div class="wrapper">
+  <button (click)="toggleModal($event)">Toggle Modal</button>
+</div>
+@if (isShown) {
+
+<div class="pop-up">
+  <img [attr.src]="boberImg" />
+  <input type="text" name="name" id="name" />
+  <button>Click</button>
+</div>
+}
+
 <app-footer></app-footer>
