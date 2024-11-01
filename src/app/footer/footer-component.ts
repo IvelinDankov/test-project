@@ -8,4 +8,6 @@ import { Component } from "@angular/core";
   standalone: true,
 })
 
-export class FooterComponent { }
+export class FooterComponent {
+  title = 'Links'
+}
