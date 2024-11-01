@@ -6,7 +6,9 @@
   font-weight: 700;
   font-size: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  column-gap: 13px;
+  padding: 5px;
 }
 
 .title {

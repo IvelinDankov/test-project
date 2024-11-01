@@ -1,0 +1,8 @@
+.footer {
+  width: 100%;
+  min-height: 55px;
+  background-color: cyan;
+  padding: 25px;
+  position: absolute;
+  bottom: 0;
+}
