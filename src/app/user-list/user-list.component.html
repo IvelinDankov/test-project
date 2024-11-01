@@ -1,1 +1,10 @@
-<p>user-list works!</p>
+<div class="wrapper">
+  <h3 class="heading-3">My User list:</h3>
+  <hr />
+  <ul>
+    <li>id - Name: - Age:</li>
+    @for (item of users; track $index) {
+    <li>- {{ item.id }} - {{ item.name }} - {{ item.age }}</li>
+    }
+  </ul>
+</div>
